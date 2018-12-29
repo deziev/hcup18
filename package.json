@@ -1,0 +1,21 @@
+{
+  "name": "hcup18",
+  "version": "1.0.0",
+  "description": "HighloadCup 18 nodejs solution",
+  "main": "app.js",
+  "author": "deziev",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "node_modules/.bin/nodemon index.js | pino-pretty -t -c"
+  },
+  "dependencies": {
+    "fastify": "1.13.3",
+    "ioredis": "4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.9",
+    "pino-pretty": "2.5.0"
+  }
+}
